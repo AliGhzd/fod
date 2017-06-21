@@ -3,7 +3,7 @@ var fs = require('fs')
 var data = { patterns: [] }
 var sites = fs.readFileSync('domains').toString()
 
-sites = sites.split('\r\n')
+sites = sites.split('\n')
 
 for (var site of sites) {
   var pattern = {

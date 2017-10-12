@@ -1,13 +1,16 @@
 {
   "name": "fod-fp-pattern-creator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Foxy Proxy patterns creator for FOD project",
   "repository": "https://github.com/ShahinSorkh/fod/tree/fp-pattern-creator",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && echo \"Finished\""
   },
   "author": "ShahinSorkh",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
 }
